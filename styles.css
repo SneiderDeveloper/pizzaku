@@ -1,0 +1,269 @@
+:root {
+    --color-primary: #222222;
+    --color-white: white;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    color: var(--color-white);
+    background-color: var(--color-primary);
+    font-family: 'Montserrat', sans-serif;
+}
+
+.btn-order-now {
+    width: 224px;
+    height: 48px;
+    background-color: var(--color-white);
+    color: var(--color-primary);
+    font-size: 22px;
+    border: none;
+    border-radius: 24px;
+    cursor: pointer;
+}
+
+/* header */
+
+.nav {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 120px;
+    background: linear-gradient(to left, rgba(247, 19, 19, 0) 0%, var(--color-primary) 70%), url('./assets/img/start.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.nav-img {
+    width: auto;
+    height: 58px;
+    margin: 0 48px;
+}
+
+.nav-ul {
+    display: flex;
+    list-style: none;
+    gap: 32px;
+}
+
+.nav-ul li {
+    font-size: 24px;
+    cursor: pointer;
+}
+
+/* statr */
+
+.start {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 95vh;
+    background: linear-gradient(to left, rgba(247, 19, 19, 0) 0%, var(--color-primary) 70%), url('./assets/img/start.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+}
+
+.start-content-text {
+    width: 500px;
+    margin-left: 48px;
+}
+
+.start-title {
+    font-size: 68px;
+}
+
+.start-description {
+    font-size: 24px;
+}
+
+/* Popular menu */
+
+.popular-menu {
+    display: grid;
+    place-items: center;
+    grid-template-rows: 400px 400px;
+    height: 100vh;
+    background-image: url('./assets/img/vegetables.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+}
+
+.popular-menu-container-text {
+    width: 700px;
+    text-align: center;
+}
+
+.popular-menu-title {
+    font-size: 48px
+}
+
+.popular-menu-description {
+    font-size: 24px;
+}
+
+.popular-menu-items {
+    display: flex;
+}
+
+.type-pizza {
+    display: grid;
+    place-items: center;
+    width: 400px;
+    text-align: center;
+}
+
+.type-pizza-img {
+    width: auto;
+    height: 224px;
+}
+
+/* free delivery */
+
+.free-delivery {
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    background-image: url('./assets/img/free-delivery.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.free-delivery-container {
+    width: 500px;
+    margin-right: 350px;
+}
+
+.free-delivery h1 {
+    font-size: 48px;
+}
+
+.free-delivery p {
+    font-size: 24px;
+}
+
+/* Statistics */
+
+.statistics {
+    display: grid;
+    place-items: center;
+    grid-template-rows: 400px 400px;
+    width: 100%;
+    height: 100vh;
+    background-image: url('./assets/img/vegetables.png');
+    background-size: cover;
+    background-position: bottom;
+}
+
+.statistics-container-text {
+    width: 700px;
+    text-align: center;
+}
+
+.statistics-title {
+    font-size: 48px;
+}
+
+.statistics-description {
+    font-size: 24px;
+}
+
+.statistics-container-data {
+    display: flex;
+    gap: 32px;
+}
+
+.statistics-data {
+    display: grid;
+    place-content: center;
+    width: 200px;
+    height: 200px;
+    border-radius: 200px;
+    border: 4px solid var(--color-white);
+}
+
+.statistics-data h1 {
+    font-size: 48px;
+    margin: 4px;
+    text-align: center;
+}
+
+.statistics-data h2 {
+    font-size: 32px;
+    margin: 0;
+}
+
+/* Discount */
+
+.discount {
+    display: flex;
+    align-items: center;
+    width: 100;
+    height: 100vh;
+    background-image: url('./assets/img/discount.png');
+    background-size: cover;
+    background-position: bottom;
+}
+
+.discount-container-text {
+    width: 500px;
+    margin-left: 48px
+}
+
+.discount-title {
+    font-size: 48px;
+}
+
+.discount-description {
+    font-size: 24px;
+}
+
+/* Subscribe */
+
+.subscribe {
+    display: grid;
+    place-content: center;
+    width: 100%;
+    height: 100vh;
+    background-image: url('./assets/img/vegetables.png');
+    background-size: cover;
+    background-position: bottom;
+}
+
+.subscribe-container-text {
+    width: 700px;
+    text-align: center;
+}
+
+.subscribe-title {
+    font-size: 48px;
+}
+
+.subscribe-description {
+    font-size: 24px;
+}
+
+.subscribe-form {
+    display: grid;
+    place-items: center;
+}
+
+.subscribe-form input {
+    width: 80%;
+    height: 48px;
+    padding: 0 24px;
+    border: none;
+    font-size: 14px;
+    border-radius: 48px;
+    color: var(--color-primary);
+    background-color: var(--color-white);
+    margin: 32px 0;
+}
+
+.subscribe-form::placeholder {
+    color: #c0c0c0;
+}
