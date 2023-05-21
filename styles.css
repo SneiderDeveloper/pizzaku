@@ -267,3 +267,39 @@ body {
 .subscribe-form::placeholder {
     color: #c0c0c0;
 }
+
+/* footer */
+
+.footer {
+    display: grid;
+    grid-template-columns: 55% 15% 15% 15%;
+    /* grid-template-rows: 1fr 1fr 1fr; */
+    align-content: center;
+    width: 100%;
+    height: 80vh;
+    background-color: #000;
+}
+
+.footer p {
+    font-size: 18px;
+}
+
+.footer-best {
+    padding: 0 98px;
+}
+
+.footer-title {
+    font-size: 32px;
+    font-weight: 500;
+}
+
+.footer-networks {
+    display: flex;
+    gap: 14px;
+    margin: 24px 0;
+}
+
+.footer-networks img {
+    width: auto;
+    height: 32px;
+}
