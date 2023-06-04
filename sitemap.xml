@@ -7,25 +7,25 @@
       <priority>1.0</priority>
    </url>
    <url>
-      <loc>https://sneiderdeveloper.github.io/pizzaku/producto.html</loc>
+      <loc>https://sneiderdeveloper.github.io/pizzaku/src/producto.html</loc>
       <lastmod>2023-05-21</lastmod>
       <changefreq>daily</changefreq>
       <priority>0.8</priority>
    </url>
    <url>
-      <loc>https://sneiderdeveloper.github.io/pizzaku/promo.html</loc>
+      <loc>https://sneiderdeveloper.github.io/pizzaku/src/promo.html</loc>
       <lastmod>2023-05-21</lastmod>
       <changefreq>hourly</changefreq>
       <priority>0.8</priority>
    </url>
    <url>
-      <loc>https://sneiderdeveloper.github.io/pizzaku/acerca.html</loc>
+      <loc>https://sneiderdeveloper.github.io/pizzaku/src/acerca.html</loc>
       <lastmod>2023-05-21</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.8</priority>
    </url>
      <url>
-      <loc>https://sneiderdeveloper.github.io/pizzaku/contacto.html</loc>
+      <loc>https://sneiderdeveloper.github.io/pizzaku/src/contacto.html</loc>
       <lastmod>2023-05-21</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.8</priority>
