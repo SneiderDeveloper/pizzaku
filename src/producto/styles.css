@@ -1,0 +1,40 @@
+.main {
+    display: grid;
+    place-content: center;
+    height: 100vh;
+}
+
+.list-products {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    gap: 32px;
+}
+
+.product {
+    display: grid;
+    justify-items: center;
+    background-color: #474747;
+    padding: 14px;
+    border-radius: 8px;
+}
+
+.pizza-img {
+    width: 200px;
+    height: auto;
+}
+
+.ingredients-title {
+    font-size: 14px;
+    color: #c0c0c0;
+}
+
+.btn-order-food {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: var(--color-primary);
+    border-radius: 8px;
+    padding: 8px 14px;
+    border: none;
+    margin-top: 24px;
+    cursor: pointer;
+}

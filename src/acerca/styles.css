@@ -1,0 +1,37 @@
+.main {
+    display: flex;
+    max-width: 1500px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    padding-top: 164px;
+}
+
+.local {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.local > h1 {
+    font-family: 'Caveat', 'Montserrat', sans-serif;
+    font-size: 40px;
+}
+
+.local-img {
+    width: 50%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.history {
+    margin-top: 40px;
+    padding: 124px;
+}
+
+.parrafo {
+    font-size: 20px;
+    margin-bottom: 40px;
+    line-height: 1.5;
+}
