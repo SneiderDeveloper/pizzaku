@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:dcterms="http://purl.org/dc/terms/"
+	xmlns:dcmitype="http://purl.org/dc/dcmitype/"
+	xmlns:admin="http://webns.net/mvcb/">
+
+<rdf:Description rdf:about="https://sneiderdeveloper.github.io/pizzaku/src/acerca/acerca.html">
+	<dc:title>Historia de Pizzaku</dc:title>
+	<dc:description>Está pagina cuenta la historia de Pizzaku.</dc:description>
+	<dc:subject>
+		<rdf:Bag>
+			<rdf:li>pizzeria</rdf:li>
+			<rdf:li>historia</rdf:li>
+			<rdf:li>emprendedor</rdf:li>
+			<rdf:li>comida rapida</rdf:li>
+			<rdf:li>Ibagué</rdf:li>
+		</rdf:Bag>
+	</dc:subject>
+	<dc:language>es</dc:language>
+	<dc:creator dc:source="https://github.com/SneiderDeveloper" rdfs:Literal="Sneider Narvaez" />
+	<dc:contributor dc:source="https://github.com/gustavoSanchez" rdfs:Literal="Gustavo Sanchez" />
+	<dc:publisher dc:source="https://github.com/rdmorav" rdfs:Literal="Ruben Mora" />
+	<dc:license dc:source="https://sneiderdeveloper.github.io/pizzaku/license" rdfs:Literal="Creative Common" />
+	<dcterms:Created><dcterms:W3CDTF><rdf:value>2023-07-12</rdf:value></dcterms:W3CDTF></dcterms:Created>
+	<dc:type rdfs:value="http://purl.org/dc/dcmitype/Service" />
+	<dc:type rdfs:value="http://purl.org/dc/dcmitype/Software" />
+	<dc:relation dc:source="https://sneiderdeveloper.github.io/pizzaku/src/producto/producto.html" rdfs:Literal="Tipos de pizzas disponibles" />
+	<dc:relation dc:source="https://sneiderdeveloper.github.io/pizzaku/src/promo/promo.html" rdfs:Literal="Promociones de pizza" />
+	<admin:generatorAgent rdf:resource="http://www.webposible.com/utilidades/dublincore-metadata-gen/" />
+</rdf:Description>
+</rdf:RDF>
